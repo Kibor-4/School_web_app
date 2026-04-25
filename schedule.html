@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📅 Daily Schedule - Sunshine Preschool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-shapes">
+        <span>⭐</span><span>🌈</span><span>🧸</span><span>🎨</span><span>🦋</span><span>🌻</span>
+    </div>
+
+    <header>
+        <div class="header-inner">
+            <a href="home.html" class="logo">
+                <span class="logo-icon">☀️</span>
+                <span>Sunshine Preschool</span>
+            </a>
+            <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">🍔</button>
+            <nav id="mainNav">
+                <a href="home.html">🏠 Home</a>
+                <a href="activities.html">🎯 Activities</a>
+                <a href="gallery.html">📸 Gallery</a>
+                <a href="schedule.html" class="active">📅 Schedule</a>
+                <a href="contact.html">📞 Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 style="text-align:center; font-size:2rem; margin-bottom:8px;">📅 Daily Schedule</h2>
+        <p style="text-align:center; color:#6b5e53; margin-bottom:16px;">A balanced day of learning, play, and rest.</p>
+        <div style="overflow-x:auto;">
+            <table class="schedule-table">
+                <thead><tr><th>Time</th><th>Activity</th><th>Details</th></tr></thead>
+                <tbody>
+                    <tr><td><span class="time-badge">8:00 AM</span></td><td>🌟 Arrival & Welcome</td><td>Free play & greetings</td></tr>
+                    <tr><td><span class="time-badge">8:30 AM</span></td><td>🧘 Morning Circle</td><td>Songs, calendar & stretching</td></tr>
+                    <tr><td><span class="time-badge">9:15 AM</span></td><td>📚 Learning Centers</td><td>Rotating activity stations</td></tr>
+                    <tr><td><span class="time-badge">10:00 AM</span></td><td>🍎 Snack Time</td><td>Healthy snacks & water</td></tr>
+                    <tr><td><span class="time-badge">10:30 AM</span></td><td>🌳 Outdoor Play</td><td>Playground & nature exploration</td></tr>
+                    <tr><td><span class="time-badge">11:15 AM</span></td><td>🎨 Creative Time</td><td>Arts, crafts & sensory play</td></tr>
+                    <tr><td><span class="time-badge">12:00 PM</span></td><td>🍽️ Lunch</td><td>Nutritious meal together</td></tr>
+                    <tr><td><span class="time-badge">12:45 PM</span></td><td>😴 Rest / Quiet Time</td><td>Naps or quiet activities</td></tr>
+                    <tr><td><span class="time-badge">2:00 PM</span></td><td>🎵 Music & Movement</td><td>Dancing & instrument play</td></tr>
+                    <tr><td><span class="time-badge">2:45 PM</span></td><td>📖 Storytime</td><td>Group reading & discussion</td></tr>
+                    <tr><td><span class="time-badge">3:30 PM</span></td><td>👋 Pickup & Goodbye</td><td>Review day & farewell</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>🌈 <strong>Sunshine Preschool</strong> — Where Little Stars Shine Bright! | &copy; 2026 All Rights Reserved | Made with 💖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

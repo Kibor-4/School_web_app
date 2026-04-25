@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📞 Contact - Sunshine Preschool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-shapes">
+        <span>⭐</span><span>🌈</span><span>🧸</span><span>🎨</span><span>🦋</span><span>🌻</span>
+    </div>
+
+    <header>
+        <div class="header-inner">
+            <a href="home.html" class="logo">
+                <span class="logo-icon">☀️</span>
+                <span>Sunshine Preschool</span>
+            </a>
+            <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">🍔</button>
+            <nav id="mainNav">
+                <a href="home.html">🏠 Home</a>
+                <a href="activities.html">🎯 Activities</a>
+                <a href="gallery.html">📸 Gallery</a>
+                <a href="schedule.html">📅 Schedule</a>
+                <a href="contact.html" class="active">📞 Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 style="text-align:center; font-size:2rem; margin-bottom:8px;">📞 Get In Touch</h2>
+        <p style="text-align:center; color:#6b5e53; margin-bottom:16px;">We'd love to hear from you! Schedule a visit or ask any questions.</p>
+
+        <div class="contact-info-row">
+            <div class="contact-info-item"><span class="ci-icon">📍</span> 123 Sunshine Lane, Happyville, CA 90210</div>
+            <div class="contact-info-item"><span class="ci-icon">📞</span> (555) 123-4567</div>
+            <div class="contact-info-item"><span class="ci-icon">✉️</span> hello@sunshinepreschool.com</div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="social-section">
+            <h3>🌟 Stay Connected 🌟</h3>
+            <div class="social-row">
+                <a href="#" target="_blank" rel="noopener" class="social-link facebook">
+                    <span class="social-icon">📘</span> Facebook
+                </a>
+                <a href="#" target="_blank" rel="noopener" class="social-link instagram">
+                    <span class="social-icon">📷</span> Instagram
+                </a>
+                <a href="#" target="_blank" rel="noopener" class="social-link twitter">
+                    <span class="social-icon">🐦</span> Twitter
+                </a>
+                <a href="#" target="_blank" rel="noopener" class="social-link youtube">
+                    <span class="social-icon">▶️</span> YouTube
+                </a>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" onsubmit="handleContactSubmit(event)">
+            <input type="text" placeholder="👤 Parent/Guardian Name" required>
+            <input type="email" placeholder="📧 Email Address" required>
+            <input type="tel" placeholder="📱 Phone Number">
+            <select required>
+                <option value="">👶 Child's Age Group</option>
+                <option value="2">2 years old</option>
+                <option value="3">3 years old</option>
+                <option value="4">4 years old</option>
+                <option value="5">5 years old</option>
+            </select>
+            <textarea placeholder="💬 Your message or questions..."></textarea>
+            <button type="submit" class="btn btn-yellow">🌟 Send Message 🌟</button>
+        </form>
+        <p id="formSuccess" style="text-align:center; color:#6BCB77; font-weight:700; margin-top:12px; display:none;">
+            ✅ Message sent successfully! We'll get back to you soon. 🎉
+        </p>
+    </main>
+
+    <footer>
+        <p>🌈 <strong>Sunshine Preschool</strong> — Where Little Stars Shine Bright! | &copy; 2026 All Rights Reserved | Made with 💖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
